@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hocky web side</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li>
+                        <a>About</a>
+                       
+                      </li>
+                      <li><a>pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">Hockey<span>'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul  class=" menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                          <a>About</a>
+                         
+                        </li>
+                        <li><a>pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                      </ul>
+
+                </div>
+                <div class="navbar-end">
+
+                  <div class="text-white bg-red-500">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a class="btn bg-red-500 text-white">Get Ticket </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+        </nav>
+        <section>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src=" images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn bg-black-500 btn-circle">❮</a> 
+                    <a href="#slide2" class="btn bg-black-500 btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="images/2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+ 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="images/4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+    </header>
+    <main class="container mx-auto">
+        <section>
+            <div class="text-center">
+                <h3>Professional Hockeys Club</h3>
+                <p>Here are some powerful place where many clubs are available and this help players to improve their skill .All clubs are running now . </p>
+                <div class="grid grid-cols-1 gap-3 lg:grid-cols-4">
+                    <div class=" item-center">
+                        <div class="radial-progress text-red-400" style="--value:87;" role="progressbar">87%</div>
+                        <h5>Prayer Facility</h5>
+                        <p>we have some extra room foe prayer for every religion.</p>
+                    </div>
+                    <div class=" item-center">
+                        <div class="radial-progress text-red-400" style="--value:95;" role="progressbar">95%</div>
+                        <h5>Experienced Coach</h5>
+                        <p>Here we have many Experienced coach who helps to learn powerful skills .</p>
+                    </div>
+                    <div class=" item-center">
+                        <div class="radial-progress text-red-400" style="--value:90;" role="progressbar">90%</div>
+                        <h5>Senior player</h5>
+                        <p>Many senior player who are already face competetion They are skillful  .</p>
+                    </div>
+                    <div class=" item-center">
+                        <div class="radial-progress text-red-400" style="--value:80;" role="progressbar">80%</div>
+                        <h5>Training Ground</h5>
+                        <p>Here some big training ground for players.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="item-center mt-8">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="grid grid-col-1 lg:grid-col-4 gap-7">
+
+                <div class="card col-span-2  bg-base-100 shadow-xl image-full ">
+                    <figure><img class="w-full" src="images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions ">
+                        <button class="btn bg-red-400 text-white">Register Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card col-span-2  bg-base-100 shadow-xl image-full">
+                    <figure><img src="images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions ">
+                        <button class="btn bg-red-400 text-white">Register Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card col-span-4  bg-base-100 shadow-xl image-full">
+                    <figure><img class="w-[100%]" src="images/4.png" alt="Shoes" /></figure>
+                    <div class="card-body justify-end">
+                      <h2 class="">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions ">
+                        <button class="btn bg-red-400 text-white">Register Now</button>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
